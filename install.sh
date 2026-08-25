@@ -4,7 +4,7 @@
 #   curl -fsSL https://raw.githubusercontent.com/<USER>/<REPO>/main/install.sh | bash
 set -euo pipefail
 
-REPO_RAW="https://raw.githubusercontent.com/<USER>/<REPO>/main"
+REPO_RAW="https://raw.githubusercontent.com/ln71v/amnezia-awg-menu/main"
 INSTALL_DIR="/opt/amnezia-menu"
 
 if [ "$(id -u)" -ne 0 ]; then
